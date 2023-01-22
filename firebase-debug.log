@@ -1,0 +1,44 @@
+[debug] [2023-01-22T11:50:16.834Z] ----------------------------------------------------------------------
+[debug] [2023-01-22T11:50:16.836Z] Command:       /usr/local/share/nvm/versions/node/v16.19.0/bin/node /home/codespace/nvm/current/bin/firebase init
+[debug] [2023-01-22T11:50:16.837Z] CLI Version:   11.21.0
+[debug] [2023-01-22T11:50:16.837Z] Platform:      linux
+[debug] [2023-01-22T11:50:16.837Z] Node Version:  v16.19.0
+[debug] [2023-01-22T11:50:16.837Z] Time:          Sun Jan 22 2023 11:50:16 GMT+0000 (Coordinated Universal Time)
+[debug] [2023-01-22T11:50:16.837Z] Env Overrides: GITHUB_API_URL
+[debug] [2023-01-22T11:50:16.838Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-22T11:50:16.842Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-22T11:50:16.843Z] > authorizing via signed-in user (anujrai1701@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/React
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-22T11:50:22.375Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-01-22T11:50:22.976Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-01-22T11:50:22.976Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project meet07-counterapp (meet07-counterapp) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
